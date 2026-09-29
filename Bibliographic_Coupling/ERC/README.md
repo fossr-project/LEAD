@@ -101,7 +101,8 @@ venv/bin/pip install -r requirements.txt
 ### Quick start
 
 ```bash
-# compute all the data (steps 01-04, default: surname mode, panel mode, years 2016-2023)
+# compute all the data (steps 01-04, both surname and surname+initial modes,
+# default: panel mode, years 2016-2023)
 venv/bin/python3 run_pipeline.py
 
 # evaluate the results (interactive file picker, threshold 0.5 by default)
