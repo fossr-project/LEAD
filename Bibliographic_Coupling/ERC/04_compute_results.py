@@ -425,7 +425,8 @@ def main():
                 overlap_rows.append(row)
 
     os.makedirs(DEFAULT_AUTHORS_JSON_FOLDER, exist_ok=True)
-    out_fn = os.path.join(DEFAULT_AUTHORS_JSON_FOLDER, f"step04_{mode}_{args.collection}_{year_start}-{year_end}.json")
+    min_researchers = parsed["min_researchers"]
+    out_fn = os.path.join(DEFAULT_AUTHORS_JSON_FOLDER, f"step04_{mode}_{min_researchers:04d}_{args.collection}_{year_start}-{year_end}.json")
     with open(out_fn, "w") as f:
         json.dump(results, f, cls=ResultEncoder)
 
@@ -434,7 +435,7 @@ def main():
         "n_references_unit", "n_overlap", "percentage",
     ]
     os.makedirs(DEFAULT_OVERLAP_FOLDER, exist_ok=True)
-    out_tsv_fn = os.path.join(DEFAULT_OVERLAP_FOLDER, f"step04_{mode}_{args.collection}_{year_start}-{year_end}.tsv")
+    out_tsv_fn = os.path.join(DEFAULT_OVERLAP_FOLDER, f"step04_{mode}_{min_researchers:04d}_{args.collection}_{year_start}-{year_end}.tsv")
     with open(out_tsv_fn, "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=tsv_columns, delimiter="\t")
         writer.writeheader()

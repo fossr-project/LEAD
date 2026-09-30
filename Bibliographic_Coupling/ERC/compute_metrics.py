@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 """
 Step 05: evaluates, on a TSV file produced by step 04
-(data/output/overlap/step04_<mode>_<collection>_<ys>-<ye>.tsv), how well
+(data/output/overlap/step04_<mode>_<min-researchers>_<collection>_<ys>-<ye>.tsv), how well
 the citation overlap percentage predicts the "match" field (ground
 truth: 1 = correct candidate auid, 0 = wrong candidate auid).
 

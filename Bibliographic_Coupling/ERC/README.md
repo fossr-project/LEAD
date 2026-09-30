@@ -105,6 +105,11 @@ venv/bin/pip install -r requirements.txt
 # default: panel mode, years 2016-2023)
 venv/bin/python3 run_pipeline.py
 
+# same, but running both panel and domain grouping
+# (space-separated values after a single --modes, not comma-separated
+# and not repeated --modes flags)
+venv/bin/python3 run_pipeline.py --modes panel domain
+
 # evaluate the results (interactive file picker, threshold 0.5 by default)
 venv/bin/python3 compute_metrics.py
 ```
@@ -119,7 +124,7 @@ behavior notes (each script's help text explains its defaults, its
 |---|---|---|
 | `--db` | `scopus-fossr` | MongoDB database. |
 | `--input` | `data/input/autori_scopus_preferred-name_erc.tsv` | Source TSV for step 01. |
-| `--modes` | `panel` | One or both of `panel`, `domain` - which grouping steps 03/04 use. |
+| `--modes` | `panel` | One or both of `panel`, `domain` - which grouping steps 03/04 use. To run both: `--modes panel domain` (space-separated after a single flag). |
 | `--year-range YYYY-YYYY` | `2016-2023` | Repeatable: one or more year ranges to process for steps 03/04. |
 | `--min-researchers` | `0` | Minimum community size passed to step 03. |
 | `--force` | off | Skip every step's "unchanged" check and rebuild everything from scratch. |
