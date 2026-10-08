@@ -1,0 +1,1970 @@
+{
+  "domains": {
+    "PE": {
+      "name_en": "Physical Sciences and Engineering",
+      "name_it": "Scienze fisiche e ingegneria"
+    },
+    "LS": {
+      "name_en": "Life Sciences",
+      "name_it": "Scienze della vita"
+    },
+    "SH": {
+      "name_en": "Social Sciences and Humanities",
+      "name_it": "Scienze sociali e umanistiche"
+    }
+  },
+  "panels": {
+    "PE1": {
+      "name_en": "Mathematics",
+      "name_it": "Matematica",
+      "description_en": "All areas of mathematics, pure and applied, plus mathematical foundations of computer science, mathematical physics and statistics",
+      "description_it": "Tutti gli ambiti della matematica, pura e applicata, oltre ai fondamenti matematici dell'informatica, alla fisica matematica e alla statistica"
+    },
+    "PE2": {
+      "name_en": "Fundamental Constituents of Matter",
+      "name_it": "Costituenti fondamentali della materia",
+      "description_en": "Particle, nuclear, plasma, atomic, molecular, gas, and optical physics",
+      "description_it": "Fisica delle particelle, nucleare, dei plasmi, atomica, molecolare, dei gas e ottica"
+    },
+    "PE3": {
+      "name_en": "Condensed Matter Physics",
+      "name_it": "Fisica della materia condensata",
+      "description_en": "Structure, electronic properties, fluids, nanosciences, biological physics",
+      "description_it": "Struttura, proprietà elettroniche, fluidi, nanoscienze, fisica biologica"
+    },
+    "PE4": {
+      "name_en": "Physical and Analytical Chemical Sciences",
+      "name_it": "Scienze chimiche fisiche e analitiche",
+      "description_en": "Analytical chemistry, chemical theory, physical chemistry/chemical physics",
+      "description_it": "Chimica analitica, chimica teorica, chimica fisica/fisica chimica"
+    },
+    "PE5": {
+      "name_en": "Synthetic Chemistry and Materials",
+      "name_it": "Chimica di sintesi e materiali",
+      "description_en": "New materials and new synthetic approaches, structure-properties relations, solid state chemistry, molecular architecture, organic chemistry",
+      "description_it": "Nuovi materiali e nuovi approcci di sintesi, relazioni struttura-proprietà, chimica dello stato solido, architettura molecolare, chimica organica"
+    },
+    "PE6": {
+      "name_en": "Computer Science and Informatics",
+      "name_it": "Informatica e scienze dell'informazione",
+      "description_en": "Informatics and information systems, computer science, scientific computing, intelligent systems",
+      "description_it": "Informatica e sistemi informativi, scienza dei calcolatori, calcolo scientifico, sistemi intelligenti"
+    },
+    "PE7": {
+      "name_en": "Systems and Communication Engineering",
+      "name_it": "Ingegneria dei sistemi e delle comunicazioni",
+      "description_en": "Electrical, electronic, communication, optical and systems engineering",
+      "description_it": "Ingegneria elettrica, elettronica, delle comunicazioni, ottica e dei sistemi"
+    },
+    "PE8": {
+      "name_en": "Products and Processes Engineering",
+      "name_it": "Ingegneria dei prodotti e dei processi",
+      "description_en": "Product and process design, chemical, civil, environmental, mechanical, vehicle engineering, energy processes and relevant computational methods",
+      "description_it": "Progettazione di prodotti e processi, ingegneria chimica, civile, ambientale, meccanica, dei veicoli, processi energetici e relativi metodi computazionali"
+    },
+    "PE9": {
+      "name_en": "Universe Sciences",
+      "name_it": "Scienze dell'universo",
+      "description_en": "Astro-physics/-chemistry/-biology; solar system; planetary systems; stellar, galactic and extragalactic astronomy; cosmology; space sciences; astronomical instrumentation and data",
+      "description_it": "Astrofisica, astrochimica, astrobiologia; sistema solare; sistemi planetari; astronomia stellare, galattica ed extragalattica; cosmologia; scienze spaziali; strumentazione e dati astronomici"
+    },
+    "PE10": {
+      "name_en": "Earth System Science",
+      "name_it": "Scienze del sistema Terra",
+      "description_en": "Physical geography, geology, geophysics, atmospheric sciences, oceanography, climatology, cryology, ecology, global environmental change, biogeochemical cycles, natural resources management",
+      "description_it": "Geografia fisica, geologia, geofisica, scienze dell'atmosfera, oceanografia, climatologia, criologia, ecologia, cambiamento ambientale globale, cicli biogeochimici, gestione delle risorse naturali"
+    },
+    "PE11": {
+      "name_en": "Materials Engineering",
+      "name_it": "Ingegneria dei materiali",
+      "description_en": "Advanced materials development: performance enhancement, modelling, large-scale preparation, modification, tailoring, optimisation, novel and combined use of materials, etc.",
+      "description_it": "Sviluppo di materiali avanzati: miglioramento delle prestazioni, modellizzazione, preparazione su larga scala, modificazione, adattamento, ottimizzazione, uso nuovo e combinato dei materiali, ecc."
+    },
+    "LS1": {
+      "name_en": "Molecules of Life: Biological Mechanisms, Structures and Functions",
+      "name_it": "Molecole della vita: meccanismi, strutture e funzioni biologiche",
+      "description_en": "For all organisms: Molecular biology, biochemistry, structural biology, molecular biophysics, synthetic and chemical biology, drug design, innovative methods and modelling",
+      "description_it": "Per tutti gli organismi: biologia molecolare, biochimica, biologia strutturale, biofisica molecolare, biologia sintetica e chimica, progettazione di farmaci, metodi innovativi e modellizzazione"
+    },
+    "LS2": {
+      "name_en": "Integrative Biology: from Genes and Genomes to Systems",
+      "name_it": "Biologia integrativa: dai geni e dai genomi ai sistemi",
+      "description_en": "For all organisms: Genetics, epigenetics, genomics and other 'omics studies, bioinformatics, systems biology, genetic diseases, gene editing, innovative methods and modelling, 'omics for personalised medicine",
+      "description_it": "Per tutti gli organismi: genetica, epigenetica, genomica e altri studi 'omici, bioinformatica, biologia dei sistemi, malattie genetiche, editing genomico, metodi innovativi e modellizzazione, scienze 'omiche per la medicina personalizzata"
+    },
+    "LS3": {
+      "name_en": "Cell Biology, Development, Stem Cells and Regeneration",
+      "name_it": "Biologia cellulare, sviluppo, cellule staminali e rigenerazione",
+      "description_en": "For all organisms: Structure and function of the cell, cell-cell communication, embryogenesis, tissue differentiation, organogenesis, growth, development, evolution of development, organoids, stem cells, regeneration, therapeutic approaches",
+      "description_it": "Per tutti gli organismi: struttura e funzione della cellula, comunicazione cellula-cellula, embriogenesi, differenziamento tissutale, organogenesi, crescita, sviluppo, evoluzione dello sviluppo, organoidi, cellule staminali, rigenerazione, approcci terapeutici"
+    },
+    "LS4": {
+      "name_en": "Physiology in Health, Disease and Ageing",
+      "name_it": "Fisiologia in salute, malattia e invecchiamento",
+      "description_en": "Organ and tissue physiology, comparative physiology, physiology of ageing, pathophysiology, inter-organ and tissue communication, endocrinology, nutrition, metabolism, interaction with the microbiome, non-communicable diseases including cancer (and except disorders of the nervous system and immunity-related diseases)",
+      "description_it": "Fisiologia di organi e tessuti, fisiologia comparata, fisiologia dell'invecchiamento, fisiopatologia, comunicazione tra organi e tessuti, endocrinologia, nutrizione, metabolismo, interazione con il microbioma, malattie non trasmissibili incluso il cancro (eccetto i disturbi del sistema nervoso e le malattie legate all'immunità)"
+    },
+    "LS5": {
+      "name_en": "Neuroscience and Disorders of the Nervous System",
+      "name_it": "Neuroscienze e disturbi del sistema nervoso",
+      "description_en": "Nervous system development, homeostasis and ageing, nervous system function and dysfunction, systems neuroscience and modelling, biological basis of cognitive processes and of behaviour, neurological and mental disorders – In humans and all other organisms",
+      "description_it": "Sviluppo, omeostasi e invecchiamento del sistema nervoso, funzione e disfunzione del sistema nervoso, neuroscienze dei sistemi e modellizzazione, basi biologiche dei processi cognitivi e del comportamento, disturbi neurologici e mentali – Nell'uomo e in tutti gli altri organismi"
+    },
+    "LS6": {
+      "name_en": "Immunity, Infection and Immunotherapy",
+      "name_it": "Immunità, infezione e immunoterapia",
+      "description_en": "The immune system, related disorders and their mechanisms, biology of infectious agents and infection, biological basis of prevention and treatment of infectious diseases, innovative immunological tools and approaches, including therapies",
+      "description_it": "Il sistema immunitario, i disturbi correlati e i loro meccanismi, biologia degli agenti infettivi e dell'infezione, basi biologiche della prevenzione e del trattamento delle malattie infettive, strumenti e approcci immunologici innovativi, incluse le terapie"
+    },
+    "LS7": {
+      "name_en": "Prevention, Diagnosis and Treatment of Human Diseases",
+      "name_it": "Prevenzione, diagnosi e trattamento delle malattie umane",
+      "description_en": "Medical technologies and tools for prevention, diagnosis and treatment of human diseases, therapeutic approaches and interventions, pharmacology, preventative medicine, epidemiology and public health, digital medicine",
+      "description_it": "Tecnologie e strumenti medici per la prevenzione, la diagnosi e il trattamento delle malattie umane, approcci e interventi terapeutici, farmacologia, medicina preventiva, epidemiologia e sanità pubblica, medicina digitale"
+    },
+    "LS8": {
+      "name_en": "Environmental Biology, Ecology and Evolution",
+      "name_it": "Biologia ambientale, ecologia ed evoluzione",
+      "description_en": "For all organisms: Ecology, biodiversity, environmental change, evolutionary biology, behavioural ecology, microbial ecology, marine biology, ecophysiology, theoretical developments and modelling",
+      "description_it": "Per tutti gli organismi: ecologia, biodiversità, cambiamento ambientale, biologia evolutiva, ecologia comportamentale, ecologia microbica, biologia marina, ecofisiologia, sviluppi teorici e modellizzazione"
+    },
+    "LS9": {
+      "name_en": "Biotechnology and Biosystems Engineering",
+      "name_it": "Biotecnologie e ingegneria dei biosistemi",
+      "description_en": "Biotechnology using all organisms, biotechnology for environment and food applications, applied plant and animal sciences, bioengineering and synthetic biology, biomass and biofuels, biohazards",
+      "description_it": "Biotecnologie basate su tutti gli organismi, biotecnologie per applicazioni ambientali e alimentari, scienze vegetali e animali applicate, bioingegneria e biologia sintetica, biomasse e biocarburanti, rischi biologici"
+    },
+    "SH1": {
+      "name_en": "Individuals, Markets and Organisations",
+      "name_it": "Individui, mercati e organizzazioni",
+      "description_en": "Economics, finance, management",
+      "description_it": "Economia, finanza, management"
+    },
+    "SH2": {
+      "name_en": "Institutions, Governance and Legal Systems",
+      "name_it": "Istituzioni, governance e sistemi giuridici",
+      "description_en": "Political science, international relations, law",
+      "description_it": "Scienza politica, relazioni internazionali, diritto"
+    },
+    "SH3": {
+      "name_en": "The Social World and Its Interactions",
+      "name_it": "Il mondo sociale e le sue interazioni",
+      "description_en": "Sociology, social psychology, education sciences, communication studies",
+      "description_it": "Sociologia, psicologia sociale, scienze dell'educazione, studi sulla comunicazione"
+    },
+    "SH4": {
+      "name_en": "The Human Mind and Its Complexity",
+      "name_it": "La mente umana e la sua complessità",
+      "description_en": "Cognitive science, psychology, linguistics",
+      "description_it": "Scienze cognitive, psicologia, linguistica"
+    },
+    "SH5": {
+      "name_en": "Texts and Concepts",
+      "name_it": "Testi e concetti",
+      "description_en": "Literary studies, literature, philosophy",
+      "description_it": "Studi letterari, letteratura, filosofia"
+    },
+    "SH6": {
+      "name_en": "The Study of the Human Past",
+      "name_it": "Lo studio del passato umano",
+      "description_en": "Archaeology and history",
+      "description_it": "Archeologia e storia"
+    },
+    "SH7": {
+      "name_en": "Human Mobility, Environment, and Space",
+      "name_it": "Mobilità umana, ambiente e spazio",
+      "description_en": "Human geography, demography, health, sustainability science, territorial planning, spatial analysis",
+      "description_it": "Geografia umana, demografia, salute, scienze della sostenibilità, pianificazione territoriale, analisi spaziale"
+    },
+    "SH8": {
+      "name_en": "Studies of Cultures and Arts",
+      "name_it": "Studi delle culture e delle arti",
+      "description_en": "Social anthropology, studies of cultures, studies of arts",
+      "description_it": "Antropologia sociale, studi delle culture, studi delle arti"
+    }
+  },
+  "panels_2026": {
+    "PE1": {
+      "name_en": "Mathematics",
+      "name_it": "Matematica",
+      "description_en": "All areas of mathematics, pure and applied, plus mathematical foundations of computer science, mathematical physics, and statistics.",
+      "description_it": "Tutti gli ambiti della matematica, pura e applicata, oltre ai fondamenti matematici dell'informatica, alla fisica matematica e alla statistica."
+    },
+    "PE2": {
+      "name_en": "Fundamental Constituents of Matter",
+      "name_it": "Costituenti fondamentali della materia",
+      "description_en": "Particle, nuclear, plasma, atomic, molecular, gas, and optical physics.",
+      "description_it": "Fisica delle particelle, nucleare, dei plasmi, atomica, molecolare, dei gas e ottica."
+    },
+    "PE3": {
+      "name_en": "Condensed Matter Physics",
+      "name_it": "Fisica della materia condensata",
+      "description_en": "Structure, electronic properties, fluids, nanosciences, biological physics.",
+      "description_it": "Struttura, proprietà elettroniche, fluidi, nanoscienze, fisica biologica."
+    },
+    "PE4": {
+      "name_en": "Physical and Analytical Chemical Sciences",
+      "name_it": "Scienze chimiche fisiche e analitiche",
+      "description_en": "Analytical chemistry, chemical theory, physical chemistry/chemical physics.",
+      "description_it": "Chimica analitica, chimica teorica, chimica fisica/fisica chimica."
+    },
+    "PE5": {
+      "name_en": "Synthetic Chemistry and Materials",
+      "name_it": "Chimica di sintesi e materiali",
+      "description_en": "New materials and new synthetic approaches, structure-properties relations, solid state chemistry, molecular architecture, organic chemistry.",
+      "description_it": "Nuovi materiali e nuovi approcci di sintesi, relazioni struttura-proprietà, chimica dello stato solido, architettura molecolare, chimica organica."
+    },
+    "PE6": {
+      "name_en": "Computer Science and Informatics",
+      "name_it": "Informatica e scienze dell'informazione",
+      "description_en": "Theoretical and experimental computer science, information processing, intelligent systems.",
+      "description_it": "Informatica teorica e sperimentale, elaborazione dell'informazione, sistemi intelligenti."
+    },
+    "PE7": {
+      "name_en": "Systems and Communication Engineering",
+      "name_it": "Ingegneria dei sistemi e delle comunicazioni",
+      "description_en": "Electrical, electronic, communication, optical and systems engineering.",
+      "description_it": "Ingegneria elettrica, elettronica, delle comunicazioni, ottica e dei sistemi."
+    },
+    "PE8": {
+      "name_en": "Products and Processes Engineering",
+      "name_it": "Ingegneria dei prodotti e dei processi",
+      "description_en": "Product and process design, chemical, civil, environmental, mechanical, vehicle engineering, energy processes and relevant computational methods.",
+      "description_it": "Progettazione di prodotti e processi, ingegneria chimica, civile, ambientale, meccanica, dei veicoli, processi energetici e relativi metodi computazionali."
+    },
+    "PE9": {
+      "name_en": "Universe Sciences",
+      "name_it": "Scienze dell'universo",
+      "description_en": "Astro-physics/-chemistry/-biology; solar system; planetary systems; stellar, galactic and extragalactic astronomy; cosmology; space sciences; astronomical instrumentation and data.",
+      "description_it": "Astrofisica, astrochimica, astrobiologia; sistema solare; sistemi planetari; astronomia stellare, galattica ed extragalattica; cosmologia; scienze spaziali; strumentazione e dati astronomici."
+    },
+    "PE10": {
+      "name_en": "Earth System Science",
+      "name_it": "Scienze del sistema Terra",
+      "description_en": "Physical geography, geology, geophysics, atmospheric sciences, oceanography, climatology, cryology, ecology, global environmental change, biogeochemical cycles, natural resources management.",
+      "description_it": "Geografia fisica, geologia, geofisica, scienze dell'atmosfera, oceanografia, climatologia, criologia, ecologia, cambiamento ambientale globale, cicli biogeochimici, gestione delle risorse naturali."
+    },
+    "PE11": {
+      "name_en": "Materials Engineering",
+      "name_it": "Ingegneria dei materiali",
+      "description_en": "Advanced materials development: performance enhancement, modelling, large-scale preparation, modification, tailoring, optimisation, novel and combined use of materials, etc.",
+      "description_it": "Sviluppo di materiali avanzati: miglioramento delle prestazioni, modellizzazione, preparazione su larga scala, modificazione, adattamento, ottimizzazione, uso nuovo e combinato dei materiali, ecc."
+    },
+    "LS1": {
+      "name_en": "Molecules of Life: Biological Mechanisms, Structures and Functions",
+      "name_it": "Molecole della vita: meccanismi, strutture e funzioni biologiche",
+      "description_en": "For all organisms: Molecular biology, biochemistry, structural biology, molecular biophysics, synthetic and chemical biology, drug design, innovative methods and modelling.",
+      "description_it": "Per tutti gli organismi: biologia molecolare, biochimica, biologia strutturale, biofisica molecolare, biologia sintetica e chimica, progettazione di farmaci, metodi innovativi e modellizzazione."
+    },
+    "LS2": {
+      "name_en": "Integrative Biology: From Genes and Genomes to Systems",
+      "name_it": "Biologia integrativa: dai geni e dai genomi ai sistemi",
+      "description_en": "For all organisms: Genetics, epigenetics, genomics and other 'omics studies, bioinformatics, systems biology, genetic diseases, gene editing, innovative methods and modelling, 'omics for personalised medicine.",
+      "description_it": "Per tutti gli organismi: genetica, epigenetica, genomica e altri studi 'omici, bioinformatica, biologia dei sistemi, malattie genetiche, editing genomico, metodi innovativi e modellizzazione, scienze 'omiche per la medicina personalizzata."
+    },
+    "LS3": {
+      "name_en": "Cell Biology, Development, Stem Cells and Regeneration",
+      "name_it": "Biologia cellulare, sviluppo, cellule staminali e rigenerazione",
+      "description_en": "For all organisms: Structure and function of the cell, cell-cell communication, embryogenesis, tissue differentiation, organogenesis, growth, development, evolution of development, organoids, stem cells, regeneration, therapeutic approaches.",
+      "description_it": "Per tutti gli organismi: struttura e funzione della cellula, comunicazione cellula-cellula, embriogenesi, differenziamento tissutale, organogenesi, crescita, sviluppo, evoluzione dello sviluppo, organoidi, cellule staminali, rigenerazione, approcci terapeutici."
+    },
+    "LS4": {
+      "name_en": "Physiology in Health, Disease and Ageing",
+      "name_it": "Fisiologia in salute, malattia e invecchiamento",
+      "description_en": "Organ and tissue physiology, comparative physiology, physiology of ageing, pathophysiology, inter-organ and tissue communication, endocrinology, nutrition, metabolism, interaction with the microbiome, non-communicable diseases including cancer (and except disorders of the nervous system and immunity-related diseases).",
+      "description_it": "Fisiologia di organi e tessuti, fisiologia comparata, fisiologia dell'invecchiamento, fisiopatologia, comunicazione tra organi e tessuti, endocrinologia, nutrizione, metabolismo, interazione con il microbioma, malattie non trasmissibili incluso il cancro (eccetto i disturbi del sistema nervoso e le malattie legate all'immunità)."
+    },
+    "LS5": {
+      "name_en": "Neuroscience and Disorders of the Nervous System",
+      "name_it": "Neuroscienze e disturbi del sistema nervoso",
+      "description_en": "Nervous system development, homeostasis and ageing, nervous system function and dysfunction, systems neuroscience and modelling, biological basis of cognitive processes and of behaviour, neurological and mental disorders. – In humans and all other organisms",
+      "description_it": "Sviluppo, omeostasi e invecchiamento del sistema nervoso, funzione e disfunzione del sistema nervoso, neuroscienze dei sistemi e modellizzazione, basi biologiche dei processi cognitivi e del comportamento, disturbi neurologici e mentali. – Nell'uomo e in tutti gli altri organismi"
+    },
+    "LS6": {
+      "name_en": "Immunity, Infection and Immunotherapy",
+      "name_it": "Immunità, infezione e immunoterapia",
+      "description_en": "The immune system, related disorders and their mechanisms, biology of infectious agents and infection, biological basis of prevention and treatment of infectious diseases, innovative immunological tools and approaches, including therapies.",
+      "description_it": "Il sistema immunitario, i disturbi correlati e i loro meccanismi, biologia degli agenti infettivi e dell'infezione, basi biologiche della prevenzione e del trattamento delle malattie infettive, strumenti e approcci immunologici innovativi, incluse le terapie."
+    },
+    "LS7": {
+      "name_en": "Prevention, Diagnosis and Treatment of Human Diseases",
+      "name_it": "Prevenzione, diagnosi e trattamento delle malattie umane",
+      "description_en": "Medical technologies and tools for prevention, diagnosis and treatment of human diseases, therapeutic approaches and interventions, pharmacology, preventative medicine, epidemiology and public health, digital medicine.",
+      "description_it": "Tecnologie e strumenti medici per la prevenzione, la diagnosi e il trattamento delle malattie umane, approcci e interventi terapeutici, farmacologia, medicina preventiva, epidemiologia e sanità pubblica, medicina digitale."
+    },
+    "LS8": {
+      "name_en": "Environmental Biology, Ecology and Evolution",
+      "name_it": "Biologia ambientale, ecologia ed evoluzione",
+      "description_en": "For all organisms: Ecology, biodiversity, environmental change, evolutionary biology, behavioural ecology, microbial ecology, marine biology, ecophysiology, theoretical developments and modelling.",
+      "description_it": "Per tutti gli organismi: ecologia, biodiversità, cambiamento ambientale, biologia evolutiva, ecologia comportamentale, ecologia microbica, biologia marina, ecofisiologia, sviluppi teorici e modellizzazione."
+    },
+    "LS9": {
+      "name_en": "Biotechnology and Biosystems Engineering",
+      "name_it": "Biotecnologie e ingegneria dei biosistemi",
+      "description_en": "Biotechnology using all organisms, biotechnology for environment and food applications, applied plant and animal sciences, bioengineering and synthetic biology, biomass and biofuels, biohazards.",
+      "description_it": "Biotecnologie basate su tutti gli organismi, biotecnologie per applicazioni ambientali e alimentari, scienze vegetali e animali applicate, bioingegneria e biologia sintetica, biomasse e biocarburanti, rischi biologici."
+    },
+    "SH1": {
+      "name_en": "Individuals, Markets and Organisations",
+      "name_it": "Individui, mercati e organizzazioni",
+      "description_en": "Economics, finance, management.",
+      "description_it": "Economia, finanza, management."
+    },
+    "SH2": {
+      "name_en": "Institutions, Governance and Legal Systems",
+      "name_it": "Istituzioni, governance e sistemi giuridici",
+      "description_en": "Political science, international relations, law.",
+      "description_it": "Scienza politica, relazioni internazionali, diritto."
+    },
+    "SH3": {
+      "name_en": "The Social World and Its Interactions",
+      "name_it": "Il mondo sociale e le sue interazioni",
+      "description_en": "Sociology, social psychology, education sciences, communication studies.",
+      "description_it": "Sociologia, psicologia sociale, scienze dell'educazione, studi sulla comunicazione."
+    },
+    "SH4": {
+      "name_en": "The Human Mind and Its Complexity",
+      "name_it": "La mente umana e la sua complessità",
+      "description_en": "Cognitive science, psychology, linguistics.",
+      "description_it": "Scienze cognitive, psicologia, linguistica."
+    },
+    "SH5": {
+      "name_en": "Texts and Concepts",
+      "name_it": "Testi e concetti",
+      "description_en": "Literary studies, literature, philosophy.",
+      "description_it": "Studi letterari, letteratura, filosofia."
+    },
+    "SH6": {
+      "name_en": "The Study of the Human Past",
+      "name_it": "Lo studio del passato umano",
+      "description_en": "Archaeology and history.",
+      "description_it": "Archeologia e storia."
+    },
+    "SH7": {
+      "name_en": "Human Mobility, Environment, and Space",
+      "name_it": "Mobilità umana, ambiente e spazio",
+      "description_en": "Human geography, demography, health, sustainability science, territorial planning, spatial analysis.",
+      "description_it": "Geografia umana, demografia, salute, scienze della sostenibilità, pianificazione territoriale, analisi spaziale."
+    },
+    "SH8": {
+      "name_en": "Arts, Cultures and Societies",
+      "name_it": "Arti, culture e società",
+      "description_en": "Anthropology, studies of cultures and the arts.",
+      "description_it": "Antropologia, studi delle culture e delle arti."
+    }
+  },
+  "subpanels": {
+    "PE1_1": {
+      "name_en": "Logic and foundations",
+      "name_it": "Logica e fondamenti"
+    },
+    "PE1_2": {
+      "name_en": "Algebra",
+      "name_it": "Algebra"
+    },
+    "PE1_3": {
+      "name_en": "Number theory",
+      "name_it": "Teoria dei numeri"
+    },
+    "PE1_4": {
+      "name_en": "Algebraic and complex geometry",
+      "name_it": "Geometria algebrica e complessa"
+    },
+    "PE1_5": {
+      "name_en": "Lie groups, Lie algebras",
+      "name_it": "Gruppi di Lie, algebre di Lie"
+    },
+    "PE1_6": {
+      "name_en": "Geometry and global analysis",
+      "name_it": "Geometria e analisi globale"
+    },
+    "PE1_7": {
+      "name_en": "Topology",
+      "name_it": "Topologia"
+    },
+    "PE1_8": {
+      "name_en": "Analysis",
+      "name_it": "Analisi"
+    },
+    "PE1_9": {
+      "name_en": "Operator algebras and functional analysis",
+      "name_it": "Algebre di operatori e analisi funzionale"
+    },
+    "PE1_10": {
+      "name_en": "ODE and dynamical systems",
+      "name_it": "Equazioni differenziali ordinarie e sistemi dinamici"
+    },
+    "PE1_11": {
+      "name_en": "Theoretical aspects of partial differential equations",
+      "name_it": "Aspetti teorici delle equazioni alle derivate parziali"
+    },
+    "PE1_12": {
+      "name_en": "Mathematical physics",
+      "name_it": "Fisica matematica"
+    },
+    "PE1_13": {
+      "name_en": "Probability",
+      "name_it": "Probabilità"
+    },
+    "PE1_14": {
+      "name_en": "Mathematical statistics",
+      "name_it": "Statistica matematica"
+    },
+    "PE1_15": {
+      "name_en": "Generic statistical methodology and modelling",
+      "name_it": "Metodologia statistica generale e modellizzazione"
+    },
+    "PE1_16": {
+      "name_en": "Discrete mathematics and combinatorics",
+      "name_it": "Matematica discreta e combinatoria"
+    },
+    "PE1_17": {
+      "name_en": "Mathematical aspects of computer science",
+      "name_it": "Aspetti matematici dell'informatica"
+    },
+    "PE1_18": {
+      "name_en": "Numerical analysis",
+      "name_it": "Analisi numerica"
+    },
+    "PE1_19": {
+      "name_en": "Scientific computing and data processing",
+      "name_it": "Calcolo scientifico ed elaborazione dei dati"
+    },
+    "PE1_20": {
+      "name_en": "Control theory, optimisation and operational research",
+      "name_it": "Teoria del controllo, ottimizzazione e ricerca operativa"
+    },
+    "PE1_21": {
+      "name_en": "Application of mathematics in sciences",
+      "name_it": "Applicazioni della matematica alle scienze"
+    },
+    "PE1_22": {
+      "name_en": "Application of mathematics in industry and society",
+      "name_it": "Applicazioni della matematica all'industria e alla società"
+    },
+    "PE2_1": {
+      "name_en": "Theory of fundamental interactions",
+      "name_it": "Teoria delle interazioni fondamentali"
+    },
+    "PE2_2": {
+      "name_en": "Phenomenology of fundamental interactions",
+      "name_it": "Fenomenologia delle interazioni fondamentali"
+    },
+    "PE2_3": {
+      "name_en": "Experimental particle physics with accelerators",
+      "name_it": "Fisica sperimentale delle particelle con acceleratori"
+    },
+    "PE2_4": {
+      "name_en": "Experimental particle physics without accelerators",
+      "name_it": "Fisica sperimentale delle particelle senza acceleratori"
+    },
+    "PE2_5": {
+      "name_en": "Classical and quantum physics of gravitational interactions",
+      "name_it": "Fisica classica e quantistica delle interazioni gravitazionali"
+    },
+    "PE2_6": {
+      "name_en": "Nuclear, hadron and heavy ion physics",
+      "name_it": "Fisica nucleare, adronica e degli ioni pesanti"
+    },
+    "PE2_7": {
+      "name_en": "Nuclear and particle astrophysics",
+      "name_it": "Astrofisica nucleare e delle particelle"
+    },
+    "PE2_8": {
+      "name_en": "Gas and plasma physics",
+      "name_it": "Fisica dei gas e dei plasmi"
+    },
+    "PE2_9": {
+      "name_en": "Electromagnetism",
+      "name_it": "Elettromagnetismo"
+    },
+    "PE2_10": {
+      "name_en": "Atomic, molecular physics",
+      "name_it": "Fisica atomica e molecolare"
+    },
+    "PE2_11": {
+      "name_en": "Ultra-cold atoms and molecules",
+      "name_it": "Atomi e molecole ultrafreddi"
+    },
+    "PE2_12": {
+      "name_en": "Optics, non-linear optics and nano-optics",
+      "name_it": "Ottica, ottica non lineare e nano-ottica"
+    },
+    "PE2_13": {
+      "name_en": "Quantum optics and quantum information",
+      "name_it": "Ottica quantistica e informazione quantistica"
+    },
+    "PE2_14": {
+      "name_en": "Lasers, ultra-short lasers and laser physics",
+      "name_it": "Laser, laser ultraveloci e fisica dei laser"
+    },
+    "PE2_15": {
+      "name_en": "Thermodynamics",
+      "name_it": "Termodinamica"
+    },
+    "PE2_16": {
+      "name_en": "Non-linear physics",
+      "name_it": "Fisica non lineare"
+    },
+    "PE2_17": {
+      "name_en": "Metrology and measurement",
+      "name_it": "Metrologia e misura"
+    },
+    "PE2_18": {
+      "name_en": "Equilibrium and non-equilibrium statistical mechanics: steady states and dynamics",
+      "name_it": "Meccanica statistica dell'equilibrio e del non equilibrio: stati stazionari e dinamica"
+    },
+    "PE3_1": {
+      "name_en": "Structure of solids, material growth and characterisation",
+      "name_it": "Struttura dei solidi, crescita e caratterizzazione dei materiali"
+    },
+    "PE3_2": {
+      "name_en": "Mechanical and acoustical properties of condensed matter, lattice dynamics",
+      "name_it": "Proprietà meccaniche e acustiche della materia condensata, dinamica reticolare"
+    },
+    "PE3_3": {
+      "name_en": "Transport properties of condensed matter",
+      "name_it": "Proprietà di trasporto della materia condensata"
+    },
+    "PE3_4": {
+      "name_en": "Electronic properties of materials, surfaces, interfaces, nanostructures",
+      "name_it": "Proprietà elettroniche di materiali, superfici, interfacce, nanostrutture"
+    },
+    "PE3_5": {
+      "name_en": "Physical properties of semiconductors and insulators",
+      "name_it": "Proprietà fisiche di semiconduttori e isolanti"
+    },
+    "PE3_6": {
+      "name_en": "Macroscopic quantum phenomena, e.g. superconductivity, superfluidity, quantum Hall effect",
+      "name_it": "Fenomeni quantistici macroscopici, ad es. superconduttività, superfluidità, effetto Hall quantistico"
+    },
+    "PE3_7": {
+      "name_en": "Spintronics",
+      "name_it": "Spintronica"
+    },
+    "PE3_8": {
+      "name_en": "Magnetism and strongly correlated systems",
+      "name_it": "Magnetismo e sistemi fortemente correlati"
+    },
+    "PE3_9": {
+      "name_en": "Condensed matter – beam interactions (photons, electrons, etc.)",
+      "name_it": "Interazioni materia condensata – fasci (fotoni, elettroni, ecc.)"
+    },
+    "PE3_10": {
+      "name_en": "Nanophysics, e.g. nanoelectronics, nanophotonics, nanomagnetism, nanoelectromechanics",
+      "name_it": "Nanofisica, ad es. nanoelettronica, nanofotonica, nanomagnetismo, nanoelettromeccanica"
+    },
+    "PE3_11": {
+      "name_en": "Mesoscopic quantum physics and solid-state quantum technologies",
+      "name_it": "Fisica quantistica mesoscopica e tecnologie quantistiche allo stato solido"
+    },
+    "PE3_12": {
+      "name_en": "Molecular electronics",
+      "name_it": "Elettronica molecolare"
+    },
+    "PE3_13": {
+      "name_en": "Structure and dynamics of disordered systems, e.g. soft matter (gels, colloids, liquid crystals), granular matter, liquids, glasses, defects",
+      "name_it": "Struttura e dinamica dei sistemi disordinati, ad es. materia soffice (gel, colloidi, cristalli liquidi), materia granulare, liquidi, vetri, difetti"
+    },
+    "PE3_14": {
+      "name_en": "Fluid dynamics (physics)",
+      "name_it": "Fluidodinamica (fisica)"
+    },
+    "PE3_15": {
+      "name_en": "Statistical physics: phase transitions, condensed matter systems, models of complex systems, interdisciplinary applications",
+      "name_it": "Fisica statistica: transizioni di fase, sistemi di materia condensata, modelli di sistemi complessi, applicazioni interdisciplinari"
+    },
+    "PE3_16": {
+      "name_en": "Physics of biological systems",
+      "name_it": "Fisica dei sistemi biologici"
+    },
+    "PE4_1": {
+      "name_en": "Physical chemistry",
+      "name_it": "Chimica fisica"
+    },
+    "PE4_2": {
+      "name_en": "Spectroscopic and spectrometric techniques",
+      "name_it": "Tecniche spettroscopiche e spettrometriche"
+    },
+    "PE4_3": {
+      "name_en": "Molecular architecture and Structure",
+      "name_it": "Architettura e struttura molecolare"
+    },
+    "PE4_4": {
+      "name_en": "Surface science and nanostructures",
+      "name_it": "Scienza delle superfici e nanostrutture"
+    },
+    "PE4_5": {
+      "name_en": "Analytical chemistry",
+      "name_it": "Chimica analitica"
+    },
+    "PE4_6": {
+      "name_en": "Chemical physics",
+      "name_it": "Fisica chimica"
+    },
+    "PE4_7": {
+      "name_en": "Chemical instrumentation",
+      "name_it": "Strumentazione chimica"
+    },
+    "PE4_8": {
+      "name_en": "Electrochemistry, electrodialysis, microfluidics, sensors",
+      "name_it": "Elettrochimica, elettrodialisi, microfluidica, sensori"
+    },
+    "PE4_9": {
+      "name_en": "Method development in chemistry",
+      "name_it": "Sviluppo di metodi in chimica"
+    },
+    "PE4_10": {
+      "name_en": "Heterogeneous catalysis",
+      "name_it": "Catalisi eterogenea"
+    },
+    "PE4_11": {
+      "name_en": "Physical chemistry of biological systems",
+      "name_it": "Chimica fisica dei sistemi biologici"
+    },
+    "PE4_12": {
+      "name_en": "Chemical reactions: mechanisms, dynamics, kinetics and catalytic reactions",
+      "name_it": "Reazioni chimiche: meccanismi, dinamica, cinetica e reazioni catalitiche"
+    },
+    "PE4_13": {
+      "name_en": "Theoretical and computational chemistry",
+      "name_it": "Chimica teorica e computazionale"
+    },
+    "PE4_14": {
+      "name_en": "Radiation and Nuclear chemistry",
+      "name_it": "Radiochimica e chimica nucleare"
+    },
+    "PE4_15": {
+      "name_en": "Photochemistry",
+      "name_it": "Fotochimica"
+    },
+    "PE4_16": {
+      "name_en": "Corrosion",
+      "name_it": "Corrosione"
+    },
+    "PE4_17": {
+      "name_en": "Characterisation methods of materials",
+      "name_it": "Metodi di caratterizzazione dei materiali"
+    },
+    "PE4_18": {
+      "name_en": "Environment chemistry",
+      "name_it": "Chimica dell'ambiente"
+    },
+    "PE5_1": {
+      "name_en": "Structural properties of materials",
+      "name_it": "Proprietà strutturali dei materiali"
+    },
+    "PE5_2": {
+      "name_en": "Solid state materials chemistry",
+      "name_it": "Chimica dei materiali allo stato solido"
+    },
+    "PE5_3": {
+      "name_en": "Surface modification",
+      "name_it": "Modificazione delle superfici"
+    },
+    "PE5_4": {
+      "name_en": "Thin films",
+      "name_it": "Film sottili"
+    },
+    "PE5_5": {
+      "name_en": "Ionic liquids",
+      "name_it": "Liquidi ionici"
+    },
+    "PE5_6": {
+      "name_en": "New materials: oxides, alloys, composite, organic-inorganic hybrid, nanoparticles",
+      "name_it": "Nuovi materiali: ossidi, leghe, compositi, ibridi organico-inorganici, nanoparticelle"
+    },
+    "PE5_7": {
+      "name_en": "Biomaterials synthesis",
+      "name_it": "Sintesi di biomateriali"
+    },
+    "PE5_8": {
+      "name_en": "Intelligent materials synthesis – self assembled materials",
+      "name_it": "Sintesi di materiali intelligenti – materiali autoassemblati"
+    },
+    "PE5_9": {
+      "name_en": "Coordination chemistry",
+      "name_it": "Chimica di coordinazione"
+    },
+    "PE5_10": {
+      "name_en": "Colloid chemistry",
+      "name_it": "Chimica dei colloidi"
+    },
+    "PE5_11": {
+      "name_en": "Biological chemistry and chemical biology",
+      "name_it": "Chimica biologica e biologia chimica"
+    },
+    "PE5_12": {
+      "name_en": "Chemistry of condensed matter",
+      "name_it": "Chimica della materia condensata"
+    },
+    "PE5_13": {
+      "name_en": "Homogeneous catalysis",
+      "name_it": "Catalisi omogenea"
+    },
+    "PE5_14": {
+      "name_en": "Macromolecular chemistry",
+      "name_it": "Chimica macromolecolare"
+    },
+    "PE5_15": {
+      "name_en": "Polymer chemistry",
+      "name_it": "Chimica dei polimeri"
+    },
+    "PE5_16": {
+      "name_en": "Supramolecular chemistry",
+      "name_it": "Chimica supramolecolare"
+    },
+    "PE5_17": {
+      "name_en": "Organic chemistry",
+      "name_it": "Chimica organica"
+    },
+    "PE5_18": {
+      "name_en": "Medicinal chemistry",
+      "name_it": "Chimica farmaceutica"
+    },
+    "PE6_1": {
+      "name_en": "Computer architecture, embedded systems, operating systems",
+      "name_it": "Architettura dei calcolatori, sistemi embedded, sistemi operativi"
+    },
+    "PE6_2": {
+      "name_en": "Distributed systems, parallel computing, sensor networks, cyber-physical systems",
+      "name_it": "Sistemi distribuiti, calcolo parallelo, reti di sensori, sistemi ciberfisici"
+    },
+    "PE6_3": {
+      "name_en": "Software engineering, programming languages and systems",
+      "name_it": "Ingegneria del software, linguaggi e sistemi di programmazione"
+    },
+    "PE6_4": {
+      "name_en": "Theoretical computer science, formal methods, automata",
+      "name_it": "Informatica teorica, metodi formali, automi"
+    },
+    "PE6_5": {
+      "name_en": "Security, privacy, cryptology, quantum cryptography",
+      "name_it": "Sicurezza, privacy, crittologia, crittografia quantistica"
+    },
+    "PE6_6": {
+      "name_en": "Algorithms and complexity, distributed, parallel and network algorithms, algorithmic game theory",
+      "name_it": "Algoritmi e complessità, algoritmi distribuiti, paralleli e di rete, teoria algoritmica dei giochi"
+    },
+    "PE6_7": {
+      "name_en": "Artificial intelligence, intelligent systems, natural language processing",
+      "name_it": "Intelligenza artificiale, sistemi intelligenti, elaborazione del linguaggio naturale"
+    },
+    "PE6_8": {
+      "name_en": "Computer graphics, computer vision, multimedia, computer games",
+      "name_it": "Grafica computazionale, visione artificiale, multimedia, videogiochi"
+    },
+    "PE6_9": {
+      "name_en": "Human computer interaction and interface, visualisation",
+      "name_it": "Interazione uomo-macchina e interfacce, visualizzazione"
+    },
+    "PE6_10": {
+      "name_en": "Web and information systems, data management systems, information retrieval and digital libraries, data fusion",
+      "name_it": "Sistemi web e informativi, sistemi di gestione dei dati, information retrieval e biblioteche digitali, fusione dei dati"
+    },
+    "PE6_11": {
+      "name_en": "Machine learning, statistical data processing and applications using signal processing (e.g. speech, image, video)",
+      "name_it": "Apprendimento automatico, elaborazione statistica dei dati e applicazioni basate sull'elaborazione dei segnali (ad es. voce, immagini, video)"
+    },
+    "PE6_12": {
+      "name_en": "Scientific computing, simulation and modelling tools",
+      "name_it": "Calcolo scientifico, strumenti di simulazione e modellizzazione"
+    },
+    "PE6_13": {
+      "name_en": "Bioinformatics, bio-inspired computing, and natural computing",
+      "name_it": "Bioinformatica, calcolo bio-ispirato e calcolo naturale"
+    },
+    "PE6_14": {
+      "name_en": "Quantum computing (formal methods, algorithms and other computer science aspects)",
+      "name_it": "Calcolo quantistico (metodi formali, algoritmi e altri aspetti informatici)"
+    },
+    "PE7_1": {
+      "name_en": "Control engineering",
+      "name_it": "Ingegneria del controllo"
+    },
+    "PE7_2": {
+      "name_en": "Electrical engineering: power components and/or systems",
+      "name_it": "Ingegneria elettrica: componenti e/o sistemi di potenza"
+    },
+    "PE7_3": {
+      "name_en": "Simulation engineering and modelling",
+      "name_it": "Ingegneria della simulazione e modellizzazione"
+    },
+    "PE7_4": {
+      "name_en": "(Micro- and nano-) systems engineering",
+      "name_it": "Ingegneria dei sistemi (micro e nano)"
+    },
+    "PE7_5": {
+      "name_en": "(Micro- and nano-) electronic, optoelectronic and photonic components",
+      "name_it": "Componenti elettronici, optoelettronici e fotonici (micro e nano)"
+    },
+    "PE7_6": {
+      "name_en": "Communication systems, wireless technology, high-frequency technology",
+      "name_it": "Sistemi di comunicazione, tecnologie wireless, tecnologie ad alta frequenza"
+    },
+    "PE7_7": {
+      "name_en": "Signal processing",
+      "name_it": "Elaborazione dei segnali"
+    },
+    "PE7_8": {
+      "name_en": "Networks, e.g. communication networks and nodes, Internet of Things, sensor networks, networks of robots",
+      "name_it": "Reti, ad es. reti e nodi di comunicazione, Internet delle cose, reti di sensori, reti di robot"
+    },
+    "PE7_9": {
+      "name_en": "Man-machine interfaces",
+      "name_it": "Interfacce uomo-macchina"
+    },
+    "PE7_10": {
+      "name_en": "Robotics",
+      "name_it": "Robotica"
+    },
+    "PE7_11": {
+      "name_en": "Components and systems for applications (in e.g. medicine, biology, environment)",
+      "name_it": "Componenti e sistemi per applicazioni (ad es. in medicina, biologia, ambiente)"
+    },
+    "PE7_12": {
+      "name_en": "Electrical energy production, distribution, applications",
+      "name_it": "Produzione, distribuzione e applicazioni dell'energia elettrica"
+    },
+    "PE8_1": {
+      "name_en": "Aerospace engineering",
+      "name_it": "Ingegneria aerospaziale"
+    },
+    "PE8_2": {
+      "name_en": "Chemical engineering, technical chemistry",
+      "name_it": "Ingegneria chimica, chimica tecnica"
+    },
+    "PE8_3": {
+      "name_en": "Civil engineering, architecture, offshore construction, lightweight construction, geotechnics",
+      "name_it": "Ingegneria civile, architettura, costruzioni offshore, costruzioni leggere, geotecnica"
+    },
+    "PE8_4": {
+      "name_en": "Computational engineering",
+      "name_it": "Ingegneria computazionale"
+    },
+    "PE8_5": {
+      "name_en": "Fluid mechanics",
+      "name_it": "Meccanica dei fluidi"
+    },
+    "PE8_6": {
+      "name_en": "Energy processes engineering",
+      "name_it": "Ingegneria dei processi energetici"
+    },
+    "PE8_7": {
+      "name_en": "Mechanical engineering",
+      "name_it": "Ingegneria meccanica"
+    },
+    "PE8_8": {
+      "name_en": "Propulsion engineering, e.g. hydraulic, turbo, piston, hybrid engines",
+      "name_it": "Ingegneria della propulsione, ad es. motori idraulici, turbomacchine, motori a pistoni, motori ibridi"
+    },
+    "PE8_9": {
+      "name_en": "Production technology, process engineering",
+      "name_it": "Tecnologie di produzione, ingegneria di processo"
+    },
+    "PE8_10": {
+      "name_en": "Manufacturing engineering and industrial design",
+      "name_it": "Ingegneria della produzione industriale e disegno industriale"
+    },
+    "PE8_11": {
+      "name_en": "Environmental engineering, e.g. sustainable design, waste and water treatment, recycling, regeneration or recovery of compounds, carbon capture & storage",
+      "name_it": "Ingegneria ambientale, ad es. progettazione sostenibile, trattamento dei rifiuti e delle acque, riciclo, rigenerazione o recupero di composti, cattura e stoccaggio del carbonio"
+    },
+    "PE8_12": {
+      "name_en": "Naval/marine engineering",
+      "name_it": "Ingegneria navale e marina"
+    },
+    "PE8_13": {
+      "name_en": "Industrial bioengineering",
+      "name_it": "Bioingegneria industriale"
+    },
+    "PE8_14": {
+      "name_en": "Automotive and rail engineering; multi-/inter-modal transport engineering",
+      "name_it": "Ingegneria automobilistica e ferroviaria; ingegneria dei trasporti multimodali e intermodali"
+    },
+    "PE9_1": {
+      "name_en": "Solar physics – the Sun and the heliosphere",
+      "name_it": "Fisica solare – il Sole e l'eliosfera"
+    },
+    "PE9_2": {
+      "name_en": "Solar system science",
+      "name_it": "Scienza del sistema solare"
+    },
+    "PE9_3": {
+      "name_en": "Exoplanetary science, formation and characterization of extrasolar planets",
+      "name_it": "Scienza degli esopianeti, formazione e caratterizzazione dei pianeti extrasolari"
+    },
+    "PE9_4": {
+      "name_en": "Astrobiology",
+      "name_it": "Astrobiologia"
+    },
+    "PE9_5": {
+      "name_en": "Interstellar medium and star formation",
+      "name_it": "Mezzo interstellare e formazione stellare"
+    },
+    "PE9_6": {
+      "name_en": "Stars – stellar physics, stellar systems",
+      "name_it": "Stelle – fisica stellare, sistemi stellari"
+    },
+    "PE9_7": {
+      "name_en": "The Milky Way",
+      "name_it": "La Via Lattea"
+    },
+    "PE9_8": {
+      "name_en": "Galaxies – formation, evolution, clusters",
+      "name_it": "Galassie – formazione, evoluzione, ammassi"
+    },
+    "PE9_9": {
+      "name_en": "Cosmology and large-scale structure, dark matter, dark energy",
+      "name_it": "Cosmologia e struttura a grande scala, materia oscura, energia oscura"
+    },
+    "PE9_10": {
+      "name_en": "Relativistic astrophysics and compact objects",
+      "name_it": "Astrofisica relativistica e oggetti compatti"
+    },
+    "PE9_11": {
+      "name_en": "Gravitational wave astronomy",
+      "name_it": "Astronomia delle onde gravitazionali"
+    },
+    "PE9_12": {
+      "name_en": "High-energy and particle astronomy",
+      "name_it": "Astronomia delle alte energie e delle particelle"
+    },
+    "PE9_13": {
+      "name_en": "Astronomical instrumentation and data, e.g. telescopes, detectors, techniques, archives, analyses",
+      "name_it": "Strumentazione e dati astronomici, ad es. telescopi, rivelatori, tecniche, archivi, analisi"
+    },
+    "PE10_1": {
+      "name_en": "Atmospheric chemistry, atmospheric composition, air pollution",
+      "name_it": "Chimica dell'atmosfera, composizione atmosferica, inquinamento atmosferico"
+    },
+    "PE10_2": {
+      "name_en": "Meteorology, atmospheric physics and dynamics",
+      "name_it": "Meteorologia, fisica e dinamica dell'atmosfera"
+    },
+    "PE10_3": {
+      "name_en": "Climatology and climate change",
+      "name_it": "Climatologia e cambiamento climatico"
+    },
+    "PE10_4": {
+      "name_en": "Terrestrial ecology, land cover change",
+      "name_it": "Ecologia terrestre, cambiamenti della copertura del suolo"
+    },
+    "PE10_5": {
+      "name_en": "Geology, tectonics, volcanology",
+      "name_it": "Geologia, tettonica, vulcanologia"
+    },
+    "PE10_6": {
+      "name_en": "Palaeoclimatology, palaeoecology",
+      "name_it": "Paleoclimatologia, paleoecologia"
+    },
+    "PE10_7": {
+      "name_en": "Physics of earth's interior, seismology, geodynamics",
+      "name_it": "Fisica dell'interno della Terra, sismologia, geodinamica"
+    },
+    "PE10_8": {
+      "name_en": "Oceanography (physical, chemical, biological, geological)",
+      "name_it": "Oceanografia (fisica, chimica, biologica, geologica)"
+    },
+    "PE10_9": {
+      "name_en": "Biogeochemistry, biogeochemical cycles, environmental chemistry",
+      "name_it": "Biogeochimica, cicli biogeochimici, chimica ambientale"
+    },
+    "PE10_10": {
+      "name_en": "Mineralogy, petrology, igneous petrology, metamorphic petrology",
+      "name_it": "Mineralogia, petrologia, petrologia ignea, petrologia metamorfica"
+    },
+    "PE10_11": {
+      "name_en": "Geochemistry, cosmochemistry, crystal chemistry, isotope geochemistry, thermodynamics",
+      "name_it": "Geochimica, cosmochimica, cristallochimica, geochimica isotopica, termodinamica"
+    },
+    "PE10_12": {
+      "name_en": "Sedimentology, soil science, palaeontology, earth evolution",
+      "name_it": "Sedimentologia, scienza del suolo, paleontologia, evoluzione della Terra"
+    },
+    "PE10_13": {
+      "name_en": "Physical geography, geomorphology",
+      "name_it": "Geografia fisica, geomorfologia"
+    },
+    "PE10_14": {
+      "name_en": "Earth observations from space/remote sensing",
+      "name_it": "Osservazione della Terra dallo spazio/telerilevamento"
+    },
+    "PE10_15": {
+      "name_en": "Geomagnetism, palaeomagnetism",
+      "name_it": "Geomagnetismo, paleomagnetismo"
+    },
+    "PE10_16": {
+      "name_en": "Ozone, upper atmosphere, ionosphere",
+      "name_it": "Ozono, alta atmosfera, ionosfera"
+    },
+    "PE10_17": {
+      "name_en": "Hydrology, hydrogeology, engineering and environmental geology, water and soil pollution",
+      "name_it": "Idrologia, idrogeologia, geologia applicata e ambientale, inquinamento delle acque e del suolo"
+    },
+    "PE10_18": {
+      "name_en": "Cryosphere, dynamics of snow and ice cover, sea ice, permafrosts and ice sheets",
+      "name_it": "Criosfera, dinamica della copertura nevosa e glaciale, ghiaccio marino, permafrost e calotte glaciali"
+    },
+    "PE10_19": {
+      "name_en": "Planetary geology and geophysics",
+      "name_it": "Geologia e geofisica planetaria"
+    },
+    "PE10_20": {
+      "name_en": "Geohazards",
+      "name_it": "Rischi geologici"
+    },
+    "PE10_21": {
+      "name_en": "Earth system modelling and interactions",
+      "name_it": "Modellizzazione del sistema Terra e delle sue interazioni"
+    },
+    "PE11_1": {
+      "name_en": "Engineering of biomaterials, biomimetic, bioinspired and bio-enabled materials",
+      "name_it": "Ingegneria dei biomateriali, materiali biomimetici, bioispirati e bioabilitati"
+    },
+    "PE11_2": {
+      "name_en": "Engineering of metals and alloys",
+      "name_it": "Ingegneria dei metalli e delle leghe"
+    },
+    "PE11_3": {
+      "name_en": "Engineering of ceramics and glasses",
+      "name_it": "Ingegneria delle ceramiche e dei vetri"
+    },
+    "PE11_4": {
+      "name_en": "Engineering of polymers and plastics",
+      "name_it": "Ingegneria dei polimeri e delle materie plastiche"
+    },
+    "PE11_5": {
+      "name_en": "Engineering of composites and hybrid materials",
+      "name_it": "Ingegneria dei materiali compositi e ibridi"
+    },
+    "PE11_6": {
+      "name_en": "Engineering of carbon materials",
+      "name_it": "Ingegneria dei materiali a base di carbonio"
+    },
+    "PE11_7": {
+      "name_en": "Engineering of metal oxides",
+      "name_it": "Ingegneria degli ossidi metallici"
+    },
+    "PE11_8": {
+      "name_en": "Engineering of alternative established or emergent materials",
+      "name_it": "Ingegneria di materiali alternativi, consolidati o emergenti"
+    },
+    "PE11_9": {
+      "name_en": "Nanomaterials engineering, e.g. nanoparticles, nanoporous materials, 1D & 2D nanomaterials",
+      "name_it": "Ingegneria dei nanomateriali, ad es. nanoparticelle, materiali nanoporosi, nanomateriali 1D e 2D"
+    },
+    "PE11_10": {
+      "name_en": "Soft materials engineering, e.g. gels, foams, colloids",
+      "name_it": "Ingegneria dei materiali soffici, ad es. gel, schiume, colloidi"
+    },
+    "PE11_11": {
+      "name_en": "Porous materials engineering, e.g. covalent-organic, metal-organic, porous aromatic frameworks",
+      "name_it": "Ingegneria dei materiali porosi, ad es. strutture covalenti organiche, metallorganiche, aromatiche porose"
+    },
+    "PE11_12": {
+      "name_en": "Semi-conducting and magnetic materials engineering",
+      "name_it": "Ingegneria dei materiali semiconduttori e magnetici"
+    },
+    "PE11_13": {
+      "name_en": "Metamaterials engineering",
+      "name_it": "Ingegneria dei metamateriali"
+    },
+    "PE11_14": {
+      "name_en": "Computational methods for materials engineering",
+      "name_it": "Metodi computazionali per l'ingegneria dei materiali"
+    },
+    "LS1_1": {
+      "name_en": "Macromolecular complexes including interactions involving nucleic acids, proteins, lipids and carbohydrates",
+      "name_it": "Complessi macromolecolari, incluse le interazioni che coinvolgono acidi nucleici, proteine, lipidi e carboidrati"
+    },
+    "LS1_2": {
+      "name_en": "Biochemistry",
+      "name_it": "Biochimica"
+    },
+    "LS1_3": {
+      "name_en": "DNA and RNA biology",
+      "name_it": "Biologia del DNA e dell'RNA"
+    },
+    "LS1_4": {
+      "name_en": "Protein biology",
+      "name_it": "Biologia delle proteine"
+    },
+    "LS1_5": {
+      "name_en": "Lipid biology",
+      "name_it": "Biologia dei lipidi"
+    },
+    "LS1_6": {
+      "name_en": "Glycobiology",
+      "name_it": "Glicobiologia"
+    },
+    "LS1_7": {
+      "name_en": "Molecular biophysics, biomechanics, bioenergetics",
+      "name_it": "Biofisica molecolare, biomeccanica, bioenergetica"
+    },
+    "LS1_8": {
+      "name_en": "Structural biology",
+      "name_it": "Biologia strutturale"
+    },
+    "LS1_9": {
+      "name_en": "Molecular mechanisms of signalling processes",
+      "name_it": "Meccanismi molecolari dei processi di segnalazione"
+    },
+    "LS1_10": {
+      "name_en": "Synthetic biology",
+      "name_it": "Biologia sintetica"
+    },
+    "LS1_11": {
+      "name_en": "Chemical biology",
+      "name_it": "Biologia chimica"
+    },
+    "LS1_12": {
+      "name_en": "Protein design",
+      "name_it": "Progettazione di proteine"
+    },
+    "LS1_13": {
+      "name_en": "Early translational research and drug design",
+      "name_it": "Ricerca traslazionale precoce e progettazione di farmaci"
+    },
+    "LS1_14": {
+      "name_en": "Innovative methods and modelling in molecular, structural and synthetic biology",
+      "name_it": "Metodi innovativi e modellizzazione in biologia molecolare, strutturale e sintetica"
+    },
+    "LS2_1": {
+      "name_en": "Genetics",
+      "name_it": "Genetica"
+    },
+    "LS2_2": {
+      "name_en": "Gene editing",
+      "name_it": "Editing genomico"
+    },
+    "LS2_3": {
+      "name_en": "Epigenetics",
+      "name_it": "Epigenetica"
+    },
+    "LS2_4": {
+      "name_en": "Gene regulation",
+      "name_it": "Regolazione genica"
+    },
+    "LS2_5": {
+      "name_en": "Genomics",
+      "name_it": "Genomica"
+    },
+    "LS2_6": {
+      "name_en": "Metagenomics",
+      "name_it": "Metagenomica"
+    },
+    "LS2_7": {
+      "name_en": "Transcriptomics",
+      "name_it": "Trascrittomica"
+    },
+    "LS2_8": {
+      "name_en": "Proteomics",
+      "name_it": "Proteomica"
+    },
+    "LS2_9": {
+      "name_en": "Metabolomics",
+      "name_it": "Metabolomica"
+    },
+    "LS2_10": {
+      "name_en": "Glycomics/Lipidomics",
+      "name_it": "Glicomica/Lipidomica"
+    },
+    "LS2_11": {
+      "name_en": "Bioinformatics and computational biology",
+      "name_it": "Bioinformatica e biologia computazionale"
+    },
+    "LS2_12": {
+      "name_en": "Biostatistics",
+      "name_it": "Biostatistica"
+    },
+    "LS2_13": {
+      "name_en": "Systems biology",
+      "name_it": "Biologia dei sistemi"
+    },
+    "LS2_14": {
+      "name_en": "Genetic diseases",
+      "name_it": "Malattie genetiche"
+    },
+    "LS2_15": {
+      "name_en": "Integrative biology for personalised medicine",
+      "name_it": "Biologia integrativa per la medicina personalizzata"
+    },
+    "LS2_16": {
+      "name_en": "Innovative methods and modelling in integrative biology",
+      "name_it": "Metodi innovativi e modellizzazione in biologia integrativa"
+    },
+    "LS3_1": {
+      "name_en": "Cell cycle, cell division and growth",
+      "name_it": "Ciclo cellulare, divisione e crescita cellulare"
+    },
+    "LS3_2": {
+      "name_en": "Cell senescence, cell death, autophagy, cell ageing",
+      "name_it": "Senescenza cellulare, morte cellulare, autofagia, invecchiamento cellulare"
+    },
+    "LS3_3": {
+      "name_en": "Cell behaviour, including control of cell shape, cell migration",
+      "name_it": "Comportamento cellulare, incluso il controllo della forma cellulare, migrazione cellulare"
+    },
+    "LS3_4": {
+      "name_en": "Cell junctions, cell adhesion, the extracellular matrix, cell communication",
+      "name_it": "Giunzioni cellulari, adesione cellulare, matrice extracellulare, comunicazione cellulare"
+    },
+    "LS3_5": {
+      "name_en": "Cell signalling and signal transduction, exosome biology",
+      "name_it": "Segnalazione cellulare e trasduzione del segnale, biologia degli esosomi"
+    },
+    "LS3_6": {
+      "name_en": "Organelle biology and trafficking",
+      "name_it": "Biologia degli organelli e traffico intracellulare"
+    },
+    "LS3_7": {
+      "name_en": "Mechanobiology of cells, tissues and organs",
+      "name_it": "Meccanobiologia di cellule, tessuti e organi"
+    },
+    "LS3_8": {
+      "name_en": "Embryogenesis, pattern formation, morphogenesis",
+      "name_it": "Embriogenesi, formazione dei pattern, morfogenesi"
+    },
+    "LS3_9": {
+      "name_en": "Cell differentiation, formation of tissues and organs",
+      "name_it": "Differenziamento cellulare, formazione di tessuti e organi"
+    },
+    "LS3_10": {
+      "name_en": "Developmental genetics",
+      "name_it": "Genetica dello sviluppo"
+    },
+    "LS3_11": {
+      "name_en": "Evolution of developmental strategies",
+      "name_it": "Evoluzione delle strategie di sviluppo"
+    },
+    "LS3_12": {
+      "name_en": "Organoids",
+      "name_it": "Organoidi"
+    },
+    "LS3_13": {
+      "name_en": "Stem cells",
+      "name_it": "Cellule staminali"
+    },
+    "LS3_14": {
+      "name_en": "Regeneration",
+      "name_it": "Rigenerazione"
+    },
+    "LS3_15": {
+      "name_en": "Development of cell-based therapeutic approaches for tissue regeneration",
+      "name_it": "Sviluppo di approcci terapeutici basati su cellule per la rigenerazione tissutale"
+    },
+    "LS3_16": {
+      "name_en": "Functional imaging of cells and tissues",
+      "name_it": "Imaging funzionale di cellule e tessuti"
+    },
+    "LS3_17": {
+      "name_en": "Theoretical modelling in cellular, developmental and regenerative biology",
+      "name_it": "Modellizzazione teorica in biologia cellulare, dello sviluppo e rigenerativa"
+    },
+    "LS4_1": {
+      "name_en": "Organ and tissue physiology and pathophysiology",
+      "name_it": "Fisiologia e fisiopatologia di organi e tessuti"
+    },
+    "LS4_2": {
+      "name_en": "Comparative physiology",
+      "name_it": "Fisiologia comparata"
+    },
+    "LS4_3": {
+      "name_en": "Physiology of ageing",
+      "name_it": "Fisiologia dell'invecchiamento"
+    },
+    "LS4_4": {
+      "name_en": "Endocrinology",
+      "name_it": "Endocrinologia"
+    },
+    "LS4_5": {
+      "name_en": "Non-hormonal mechanisms of inter-organ and tissue communication",
+      "name_it": "Meccanismi non ormonali di comunicazione tra organi e tessuti"
+    },
+    "LS4_6": {
+      "name_en": "Microbiome and host physiology",
+      "name_it": "Microbioma e fisiologia dell'ospite"
+    },
+    "LS4_7": {
+      "name_en": "Nutrition and exercise physiology",
+      "name_it": "Fisiologia della nutrizione e dell'esercizio fisico"
+    },
+    "LS4_8": {
+      "name_en": "Impact of stress (including environmental stress) on physiology",
+      "name_it": "Impatto dello stress (incluso lo stress ambientale) sulla fisiologia"
+    },
+    "LS4_9": {
+      "name_en": "Metabolism and metabolic disorders, including diabetes and obesity",
+      "name_it": "Metabolismo e disturbi metabolici, inclusi diabete e obesità"
+    },
+    "LS4_10": {
+      "name_en": "The cardiovascular system and cardiovascular diseases",
+      "name_it": "Il sistema cardiovascolare e le malattie cardiovascolari"
+    },
+    "LS4_11": {
+      "name_en": "Haematopoiesis and blood diseases",
+      "name_it": "Ematopoiesi e malattie del sangue"
+    },
+    "LS4_12": {
+      "name_en": "Cancer",
+      "name_it": "Cancro"
+    },
+    "LS4_13": {
+      "name_en": "Other non-communicable diseases (except disorders of the nervous system and immunity-related diseases)",
+      "name_it": "Altre malattie non trasmissibili (eccetto i disturbi del sistema nervoso e le malattie legate all'immunità)"
+    },
+    "LS5_1": {
+      "name_en": "Neuronal cells",
+      "name_it": "Cellule neuronali"
+    },
+    "LS5_2": {
+      "name_en": "Glial cells and neuronal-glial communication",
+      "name_it": "Cellule gliali e comunicazione neurone-glia"
+    },
+    "LS5_3": {
+      "name_en": "Neural development and related disorders",
+      "name_it": "Sviluppo neurale e disturbi correlati"
+    },
+    "LS5_4": {
+      "name_en": "Neural stem cells",
+      "name_it": "Cellule staminali neurali"
+    },
+    "LS5_5": {
+      "name_en": "Neural networks and plasticity",
+      "name_it": "Reti neurali e plasticità"
+    },
+    "LS5_6": {
+      "name_en": "Neurovascular biology and blood-brain barrier",
+      "name_it": "Biologia neurovascolare e barriera ematoencefalica"
+    },
+    "LS5_7": {
+      "name_en": "Sensory systems, sensation and perception, including pain",
+      "name_it": "Sistemi sensoriali, sensazione e percezione, incluso il dolore"
+    },
+    "LS5_8": {
+      "name_en": "Neural basis of behaviour (e.g. sleep, consciousness, addiction)",
+      "name_it": "Basi neurali del comportamento (ad es. sonno, coscienza, dipendenza)"
+    },
+    "LS5_9": {
+      "name_en": "Neural basis of cognition (e.g. learning, memory, attention, emotions, speech)",
+      "name_it": "Basi neurali della cognizione (ad es. apprendimento, memoria, attenzione, emozioni, linguaggio)"
+    },
+    "LS5_10": {
+      "name_en": "Ageing of the nervous system",
+      "name_it": "Invecchiamento del sistema nervoso"
+    },
+    "LS5_11": {
+      "name_en": "Neurological and neurodegenerative disorders",
+      "name_it": "Disturbi neurologici e neurodegenerativi"
+    },
+    "LS5_12": {
+      "name_en": "Mental disorders",
+      "name_it": "Disturbi mentali"
+    },
+    "LS5_13": {
+      "name_en": "Nervous system injuries and trauma, stroke",
+      "name_it": "Lesioni e traumi del sistema nervoso, ictus"
+    },
+    "LS5_14": {
+      "name_en": "Repair and regeneration of the nervous system",
+      "name_it": "Riparazione e rigenerazione del sistema nervoso"
+    },
+    "LS5_15": {
+      "name_en": "Neuroimmunology, neuroinflammation",
+      "name_it": "Neuroimmunologia, neuroinfiammazione"
+    },
+    "LS5_16": {
+      "name_en": "Systems and computational neuroscience (e.g. modelling, simulation, brain oscillations, connectomics)",
+      "name_it": "Neuroscienze dei sistemi e computazionali (ad es. modellizzazione, simulazione, oscillazioni cerebrali, connettomica)"
+    },
+    "LS5_17": {
+      "name_en": "Imaging in neuroscience",
+      "name_it": "Imaging nelle neuroscienze"
+    },
+    "LS5_18": {
+      "name_en": "Innovative methods and tools for neuroscience",
+      "name_it": "Metodi e strumenti innovativi per le neuroscienze"
+    },
+    "LS6_1": {
+      "name_en": "Innate immunity",
+      "name_it": "Immunità innata"
+    },
+    "LS6_2": {
+      "name_en": "Adaptive immunity",
+      "name_it": "Immunità adattativa"
+    },
+    "LS6_3": {
+      "name_en": "Regulation of the immune response",
+      "name_it": "Regolazione della risposta immunitaria"
+    },
+    "LS6_4": {
+      "name_en": "Immune-related diseases",
+      "name_it": "Malattie legate al sistema immunitario"
+    },
+    "LS6_5": {
+      "name_en": "Biology of pathogens (e.g. bacteria, viruses, parasites, fungi)",
+      "name_it": "Biologia dei patogeni (ad es. batteri, virus, parassiti, funghi)"
+    },
+    "LS6_6": {
+      "name_en": "Infectious diseases",
+      "name_it": "Malattie infettive"
+    },
+    "LS6_7": {
+      "name_en": "Mechanisms of infection",
+      "name_it": "Meccanismi di infezione"
+    },
+    "LS6_8": {
+      "name_en": "Biological basis of prevention and treatment of infection",
+      "name_it": "Basi biologiche della prevenzione e del trattamento delle infezioni"
+    },
+    "LS6_9": {
+      "name_en": "Antimicrobials, antimicrobial resistance",
+      "name_it": "Antimicrobici, resistenza antimicrobica"
+    },
+    "LS6_10": {
+      "name_en": "Vaccine development",
+      "name_it": "Sviluppo di vaccini"
+    },
+    "LS6_11": {
+      "name_en": "Innovative immunological tools and approaches, including therapies",
+      "name_it": "Strumenti e approcci immunologici innovativi, incluse le terapie"
+    },
+    "LS7_1": {
+      "name_en": "Medical imaging for prevention, diagnosis and monitoring of diseases",
+      "name_it": "Imaging medico per la prevenzione, la diagnosi e il monitoraggio delle malattie"
+    },
+    "LS7_2": {
+      "name_en": "Medical technologies and tools (including genetic tools and biomarkers) for prevention, diagnosis, monitoring and treatment of diseases",
+      "name_it": "Tecnologie e strumenti medici (inclusi strumenti genetici e biomarcatori) per la prevenzione, la diagnosi, il monitoraggio e il trattamento delle malattie"
+    },
+    "LS7_3": {
+      "name_en": "Nanomedicine",
+      "name_it": "Nanomedicina"
+    },
+    "LS7_4": {
+      "name_en": "Regenerative medicine",
+      "name_it": "Medicina rigenerativa"
+    },
+    "LS7_5": {
+      "name_en": "Applied gene, cell and immune therapies",
+      "name_it": "Terapie geniche, cellulari e immunitarie applicate"
+    },
+    "LS7_6": {
+      "name_en": "Other medical therapeutic interventions, including transplantation",
+      "name_it": "Altri interventi terapeutici medici, incluso il trapianto"
+    },
+    "LS7_7": {
+      "name_en": "Pharmacology and toxicology",
+      "name_it": "Farmacologia e tossicologia"
+    },
+    "LS7_8": {
+      "name_en": "Effectiveness of interventions, including resistance to therapies",
+      "name_it": "Efficacia degli interventi, inclusa la resistenza alle terapie"
+    },
+    "LS7_9": {
+      "name_en": "Public health and epidemiology",
+      "name_it": "Sanità pubblica ed epidemiologia"
+    },
+    "LS7_10": {
+      "name_en": "Preventative and prognostic medicine",
+      "name_it": "Medicina preventiva e prognostica"
+    },
+    "LS7_11": {
+      "name_en": "Environmental health, occupational medicine",
+      "name_it": "Salute ambientale, medicina del lavoro"
+    },
+    "LS7_12": {
+      "name_en": "Health care, including care for the ageing population",
+      "name_it": "Assistenza sanitaria, inclusa l'assistenza alla popolazione anziana"
+    },
+    "LS7_13": {
+      "name_en": "Palliative medicine",
+      "name_it": "Medicina palliativa"
+    },
+    "LS7_14": {
+      "name_en": "Digital medicine, e-medicine, medical applications of artificial intelligence",
+      "name_it": "Medicina digitale, e-medicine, applicazioni mediche dell'intelligenza artificiale"
+    },
+    "LS7_15": {
+      "name_en": "Medical ethics",
+      "name_it": "Etica medica"
+    },
+    "LS8_1": {
+      "name_en": "Ecosystem and community ecology, macroecology",
+      "name_it": "Ecologia degli ecosistemi e delle comunità, macroecologia"
+    },
+    "LS8_2": {
+      "name_en": "Biodiversity",
+      "name_it": "Biodiversità"
+    },
+    "LS8_3": {
+      "name_en": "Conservation biology",
+      "name_it": "Biologia della conservazione"
+    },
+    "LS8_4": {
+      "name_en": "Population biology, population dynamics, population genetics",
+      "name_it": "Biologia delle popolazioni, dinamica delle popolazioni, genetica delle popolazioni"
+    },
+    "LS8_5": {
+      "name_en": "Biological aspects of environmental change, including climate change",
+      "name_it": "Aspetti biologici dei cambiamenti ambientali, incluso il cambiamento climatico"
+    },
+    "LS8_6": {
+      "name_en": "Evolutionary ecology",
+      "name_it": "Ecologia evolutiva"
+    },
+    "LS8_7": {
+      "name_en": "Evolutionary genetics",
+      "name_it": "Genetica evolutiva"
+    },
+    "LS8_8": {
+      "name_en": "Phylogenetics, systematics, comparative biology",
+      "name_it": "Filogenetica, sistematica, biologia comparata"
+    },
+    "LS8_9": {
+      "name_en": "Macroevolution and paleobiology",
+      "name_it": "Macroevoluzione e paleobiologia"
+    },
+    "LS8_10": {
+      "name_en": "Ecology and evolution of species interactions",
+      "name_it": "Ecologia ed evoluzione delle interazioni tra specie"
+    },
+    "LS8_11": {
+      "name_en": "Behavioural ecology and evolution",
+      "name_it": "Ecologia comportamentale ed evoluzione del comportamento"
+    },
+    "LS8_12": {
+      "name_en": "Microbial ecology and evolution",
+      "name_it": "Ecologia ed evoluzione microbica"
+    },
+    "LS8_13": {
+      "name_en": "Marine biology and ecology",
+      "name_it": "Biologia ed ecologia marina"
+    },
+    "LS8_14": {
+      "name_en": "Ecophysiology, from organisms to ecosystems",
+      "name_it": "Ecofisiologia, dagli organismi agli ecosistemi"
+    },
+    "LS8_15": {
+      "name_en": "Theoretical developments and modelling in environmental biology, ecology, and evolution",
+      "name_it": "Sviluppi teorici e modellizzazione in biologia ambientale, ecologia ed evoluzione"
+    },
+    "LS9_1": {
+      "name_en": "Bioengineering for synthetic and chemical biology",
+      "name_it": "Bioingegneria per la biologia sintetica e chimica"
+    },
+    "LS9_2": {
+      "name_en": "Applied genetics, gene editing and transgenic organisms",
+      "name_it": "Genetica applicata, editing genomico e organismi transgenici"
+    },
+    "LS9_3": {
+      "name_en": "Bioengineering of cells, tissues, organs and organisms",
+      "name_it": "Bioingegneria di cellule, tessuti, organi e organismi"
+    },
+    "LS9_4": {
+      "name_en": "Microbial biotechnology and bioengineering",
+      "name_it": "Biotecnologie e bioingegneria microbiche"
+    },
+    "LS9_5": {
+      "name_en": "Food biotechnology and bioengineering",
+      "name_it": "Biotecnologie e bioingegneria alimentari"
+    },
+    "LS9_6": {
+      "name_en": "Marine biotechnology and bioengineering",
+      "name_it": "Biotecnologie e bioingegneria marine"
+    },
+    "LS9_7": {
+      "name_en": "Environmental biotechnology and bioengineering",
+      "name_it": "Biotecnologie e bioingegneria ambientali"
+    },
+    "LS9_8": {
+      "name_en": "Applied plant sciences, plant breeding, agroecology and soil biology",
+      "name_it": "Scienze vegetali applicate, miglioramento genetico delle piante, agroecologia e biologia del suolo"
+    },
+    "LS9_9": {
+      "name_en": "Plant pathology and pest resistance",
+      "name_it": "Patologia vegetale e resistenza ai parassiti"
+    },
+    "LS9_10": {
+      "name_en": "Veterinary and applied animal sciences",
+      "name_it": "Scienze veterinarie e scienze animali applicate"
+    },
+    "LS9_11": {
+      "name_en": "Biomass production and utilisation, biofuels",
+      "name_it": "Produzione e utilizzo delle biomasse, biocarburanti"
+    },
+    "LS9_12": {
+      "name_en": "Ecotoxicology, biohazards and biosafety",
+      "name_it": "Ecotossicologia, rischi biologici e biosicurezza"
+    },
+    "SH1_1": {
+      "name_en": "Macroeconomics; monetary economics; economic growth, labour economics",
+      "name_it": "Macroeconomia; economia monetaria; crescita economica, economia del lavoro"
+    },
+    "SH1_2": {
+      "name_en": "International trade; international business; spatial economics",
+      "name_it": "Commercio internazionale; economia aziendale internazionale; economia spaziale"
+    },
+    "SH1_3": {
+      "name_en": "Development economics political economics",
+      "name_it": "Economia dello sviluppo, economia politica"
+    },
+    "SH1_4": {
+      "name_en": "Finance; financial markets",
+      "name_it": "Finanza; mercati finanziari"
+    },
+    "SH1_5": {
+      "name_en": "Corporate finance; international finance",
+      "name_it": "Finanza aziendale; finanza internazionale"
+    },
+    "SH1_6": {
+      "name_en": "Banking, insurance",
+      "name_it": "Banche, assicurazioni"
+    },
+    "SH1_7": {
+      "name_en": "Accounting, asset prices, auditing",
+      "name_it": "Contabilità, prezzi delle attività finanziarie, revisione contabile"
+    },
+    "SH1_8": {
+      "name_en": "Econometrics, game theory, decision theory",
+      "name_it": "Econometria, teoria dei giochi, teoria delle decisioni"
+    },
+    "SH1_9": {
+      "name_en": "Behavioural economics; experimental economics; neuro-economics",
+      "name_it": "Economia comportamentale; economia sperimentale; neuroeconomia"
+    },
+    "SH1_10": {
+      "name_en": "Microeconomics, industrial organisation, applied microeconomics",
+      "name_it": "Microeconomia, organizzazione industriale, microeconomia applicata"
+    },
+    "SH1_11": {
+      "name_en": "Innovation, research & development, entrepreneurship",
+      "name_it": "Innovazione, ricerca e sviluppo, imprenditorialità"
+    },
+    "SH1_12": {
+      "name_en": "Management; operations management, international management",
+      "name_it": "Management; gestione delle operazioni, management internazionale"
+    },
+    "SH1_13": {
+      "name_en": "Human resource management; organisational behaviour",
+      "name_it": "Gestione delle risorse umane; comportamento organizzativo"
+    },
+    "SH1_14": {
+      "name_en": "Strategy, operation research",
+      "name_it": "Strategia, ricerca operativa"
+    },
+    "SH1_15": {
+      "name_en": "Marketing, consumer behaviour",
+      "name_it": "Marketing, comportamento del consumatore"
+    },
+    "SH1_16": {
+      "name_en": "Quantitative economic history, economic systems, institutional economics",
+      "name_it": "Storia economica quantitativa, sistemi economici, economia istituzionale"
+    },
+    "SH2_1": {
+      "name_en": "Political systems, governance",
+      "name_it": "Sistemi politici, governance"
+    },
+    "SH2_2": {
+      "name_en": "Democratisation and social movements",
+      "name_it": "Democratizzazione e movimenti sociali"
+    },
+    "SH2_3": {
+      "name_en": "Conflict resolution, war, peace building",
+      "name_it": "Risoluzione dei conflitti, guerra, costruzione della pace"
+    },
+    "SH2_4": {
+      "name_en": "Legal studies, comparative law, law and economics",
+      "name_it": "Studi giuridici, diritto comparato, analisi economica del diritto"
+    },
+    "SH2_5": {
+      "name_en": "Constitutions, human rights, international law",
+      "name_it": "Costituzioni, diritti umani, diritto internazionale"
+    },
+    "SH2_6": {
+      "name_en": "International relations, global and transnational governance",
+      "name_it": "Relazioni internazionali, governance globale e transnazionale"
+    },
+    "SH2_7": {
+      "name_en": "Humanitarian assistance and development",
+      "name_it": "Assistenza umanitaria e sviluppo"
+    },
+    "SH2_8": {
+      "name_en": "Political and legal philosophy",
+      "name_it": "Filosofia politica e del diritto"
+    },
+    "SH2_9": {
+      "name_en": "Digital approaches to political science and law",
+      "name_it": "Approcci digitali alla scienza politica e al diritto"
+    },
+    "SH3_1": {
+      "name_en": "Social structure, social mobility, social innovation",
+      "name_it": "Struttura sociale, mobilità sociale, innovazione sociale"
+    },
+    "SH3_2": {
+      "name_en": "Inequalities, discrimination, prejudice",
+      "name_it": "Disuguaglianze, discriminazione, pregiudizio"
+    },
+    "SH3_3": {
+      "name_en": "Aggression and violence, antisocial behaviour, crime",
+      "name_it": "Aggressività e violenza, comportamento antisociale, criminalità"
+    },
+    "SH3_4": {
+      "name_en": "Social integration, exclusion, prosocial behaviour",
+      "name_it": "Integrazione sociale, esclusione, comportamento prosociale"
+    },
+    "SH3_5": {
+      "name_en": "Social attitudes and beliefs",
+      "name_it": "Atteggiamenti e credenze sociali"
+    },
+    "SH3_6": {
+      "name_en": "Social influence; power and group behaviour",
+      "name_it": "Influenza sociale; potere e comportamento di gruppo"
+    },
+    "SH3_7": {
+      "name_en": "Social policies, welfare, work and employment",
+      "name_it": "Politiche sociali, welfare, lavoro e occupazione"
+    },
+    "SH3_8": {
+      "name_en": "Poverty and poverty alleviation",
+      "name_it": "Povertà e riduzione della povertà"
+    },
+    "SH3_9": {
+      "name_en": "Social aspects of teaching and learning, curriculum studies, education and educational policies",
+      "name_it": "Aspetti sociali dell'insegnamento e dell'apprendimento, studi sui curricoli, istruzione e politiche educative"
+    },
+    "SH3_10": {
+      "name_en": "Communication and information, networks, media",
+      "name_it": "Comunicazione e informazione, reti, media"
+    },
+    "SH3_11": {
+      "name_en": "Digital social research",
+      "name_it": "Ricerca sociale digitale"
+    },
+    "SH3_12": {
+      "name_en": "Social studies of science and technology",
+      "name_it": "Studi sociali della scienza e della tecnologia"
+    },
+    "SH4_1": {
+      "name_en": "Cognitive basis of human development, developmental disorders; comparative cognition",
+      "name_it": "Basi cognitive dello sviluppo umano, disturbi dello sviluppo; cognizione comparata"
+    },
+    "SH4_2": {
+      "name_en": "Personality and social cognition; emotion",
+      "name_it": "Personalità e cognizione sociale; emozione"
+    },
+    "SH4_3": {
+      "name_en": "Clinical and health psychology",
+      "name_it": "Psicologia clinica e della salute"
+    },
+    "SH4_4": {
+      "name_en": "Neurocognitive psychology",
+      "name_it": "Psicologia neurocognitiva"
+    },
+    "SH4_5": {
+      "name_en": "Attention, perception, action, consciousness",
+      "name_it": "Attenzione, percezione, azione, coscienza"
+    },
+    "SH4_6": {
+      "name_en": "Learning, memory; cognition in ageing",
+      "name_it": "Apprendimento, memoria; cognizione nell'invecchiamento"
+    },
+    "SH4_7": {
+      "name_en": "Reasoning, decision-making; intelligence",
+      "name_it": "Ragionamento, presa di decisione; intelligenza"
+    },
+    "SH4_8": {
+      "name_en": "Language learning and processing (first and second languages)",
+      "name_it": "Apprendimento ed elaborazione del linguaggio (prima e seconda lingua)"
+    },
+    "SH4_9": {
+      "name_en": "Theoretical linguistics; computational linguistics",
+      "name_it": "Linguistica teorica; linguistica computazionale"
+    },
+    "SH4_10": {
+      "name_en": "Language typology; historical linguistics",
+      "name_it": "Tipologia linguistica; linguistica storica"
+    },
+    "SH4_11": {
+      "name_en": "Pragmatics, sociolinguistics, linguistic anthropology, discourse analysis",
+      "name_it": "Pragmatica, sociolinguistica, antropologia linguistica, analisi del discorso"
+    },
+    "SH5_1": {
+      "name_en": "Classics, ancient literature",
+      "name_it": "Studi classici, letterature antiche"
+    },
+    "SH5_2": {
+      "name_en": "Theory and history of literature, comparative literature",
+      "name_it": "Teoria e storia della letteratura, letteratura comparata"
+    },
+    "SH5_3": {
+      "name_en": "Book studies",
+      "name_it": "Studi sul libro"
+    },
+    "SH5_4": {
+      "name_en": "Philology; text and image studies",
+      "name_it": "Filologia; studi su testo e immagine"
+    },
+    "SH5_5": {
+      "name_en": "Palaeography and codicology",
+      "name_it": "Paleografia e codicologia"
+    },
+    "SH5_6": {
+      "name_en": "Philosophy of mind, philosophy of language",
+      "name_it": "Filosofia della mente, filosofia del linguaggio"
+    },
+    "SH5_7": {
+      "name_en": "Philosophy of science, epistemology, logic",
+      "name_it": "Filosofia della scienza, epistemologia, logica"
+    },
+    "SH5_8": {
+      "name_en": "Metaphysics, philosophical anthropology; aesthetics",
+      "name_it": "Metafisica, antropologia filosofica; estetica"
+    },
+    "SH5_9": {
+      "name_en": "Ethics and its applications; social philosophy",
+      "name_it": "Etica e sue applicazioni; filosofia sociale"
+    },
+    "SH5_10": {
+      "name_en": "History of philosophy",
+      "name_it": "Storia della filosofia"
+    },
+    "SH5_11": {
+      "name_en": "Digital humanities; digital approaches to literary studies and philosophy",
+      "name_it": "Digital humanities; approcci digitali agli studi letterari e alla filosofia"
+    },
+    "SH6_1": {
+      "name_en": "Archaeological methods and theory, history of archaeology",
+      "name_it": "Metodi e teoria dell'archeologia, storia dell'archeologia"
+    },
+    "SH6_2": {
+      "name_en": "Prehistoric archaeology, archaeology of non-literate societies",
+      "name_it": "Archeologia preistorica, archeologia delle società prive di scrittura"
+    },
+    "SH6_3": {
+      "name_en": "Archaeology of early literate societies and early civilizations",
+      "name_it": "Archeologia delle prime società con scrittura e delle prime civiltà"
+    },
+    "SH6_4": {
+      "name_en": "Medieval and post-medieval archaeologies",
+      "name_it": "Archeologie medievali e post-medievali"
+    },
+    "SH6_5": {
+      "name_en": "Archaeological science, bioarchaeology, environmental archaeology, geoarchaeology",
+      "name_it": "Scienze archeologiche, bioarcheologia, archeologia ambientale, geoarcheologia"
+    },
+    "SH6_6": {
+      "name_en": "Digital, computational, virtual and geospatial archaeologies",
+      "name_it": "Archeologie digitali, computazionali, virtuali e geospaziali"
+    },
+    "SH6_7": {
+      "name_en": "Historiography, theory and methods of history, including the analysis of digital data",
+      "name_it": "Storiografia, teoria e metodi della storia, inclusa l'analisi di dati digitali"
+    },
+    "SH6_8": {
+      "name_en": "Ancient history, medieval history",
+      "name_it": "Storia antica, storia medievale"
+    },
+    "SH6_9": {
+      "name_en": "Early modern, modern, and contemporary history",
+      "name_it": "Storia moderna e contemporanea"
+    },
+    "SH6_10": {
+      "name_en": "Colonial and post-colonial history",
+      "name_it": "Storia coloniale e postcoloniale"
+    },
+    "SH6_11": {
+      "name_en": "Global, transnational, and comparative history",
+      "name_it": "Storia globale, transnazionale e comparata"
+    },
+    "SH6_12": {
+      "name_en": "Social and economic history",
+      "name_it": "Storia sociale ed economica"
+    },
+    "SH6_13": {
+      "name_en": "Cultural history, intellectual history",
+      "name_it": "Storia culturale, storia intellettuale"
+    },
+    "SH6_14": {
+      "name_en": "History of science and technologies, environmental history",
+      "name_it": "Storia della scienza e delle tecnologie, storia ambientale"
+    },
+    "SH7_1": {
+      "name_en": "Human, economic and social geography",
+      "name_it": "Geografia umana, economica e sociale"
+    },
+    "SH7_2": {
+      "name_en": "Migration",
+      "name_it": "Migrazioni"
+    },
+    "SH7_3": {
+      "name_en": "Population dynamics: households, family and fertility",
+      "name_it": "Dinamiche della popolazione: famiglie, nuclei familiari e fecondità"
+    },
+    "SH7_4": {
+      "name_en": "Social aspects of health, ageing and society",
+      "name_it": "Aspetti sociali della salute, invecchiamento e società"
+    },
+    "SH7_5": {
+      "name_en": "Sustainability sciences, environment and resources, ecosystem services",
+      "name_it": "Scienze della sostenibilità, ambiente e risorse, servizi ecosistemici"
+    },
+    "SH7_6": {
+      "name_en": "Environmental and climate change, societal impact and policy",
+      "name_it": "Cambiamenti ambientali e climatici, impatto sociale e politiche"
+    },
+    "SH7_7": {
+      "name_en": "Cities; urban, regional and rural studies",
+      "name_it": "Città; studi urbani, regionali e rurali"
+    },
+    "SH7_8": {
+      "name_en": "Land use and planning",
+      "name_it": "Uso del suolo e pianificazione"
+    },
+    "SH7_9": {
+      "name_en": "Energy, transportation and mobility",
+      "name_it": "Energia, trasporti e mobilità"
+    },
+    "SH7_10": {
+      "name_en": "GIS, spatial analysis; digital geography",
+      "name_it": "GIS, analisi spaziale; geografia digitale"
+    },
+    "SH8_1": {
+      "name_en": "Kinship; diversity and identities, gender, interethnic relations",
+      "name_it": "Parentela; diversità e identità, genere, relazioni interetniche"
+    },
+    "SH8_2": {
+      "name_en": "Religious studies, ritual; symbolic representation",
+      "name_it": "Studi religiosi, rituali; rappresentazione simbolica"
+    },
+    "SH8_3": {
+      "name_en": "Cultural studies and theory, cultural identities and memories, cultural heritage",
+      "name_it": "Studi e teoria della cultura, identità e memorie culturali, patrimonio culturale"
+    },
+    "SH8_4": {
+      "name_en": "Museums, exhibitions, conservation and restoration",
+      "name_it": "Musei, mostre, conservazione e restauro"
+    },
+    "SH8_5": {
+      "name_en": "History of art and of architecture",
+      "name_it": "Storia dell'arte e dell'architettura"
+    },
+    "SH8_6": {
+      "name_en": "Architecture, design, craft, creative industries",
+      "name_it": "Architettura, design, artigianato, industrie creative"
+    },
+    "SH8_7": {
+      "name_en": "Music and musicology; history of music",
+      "name_it": "Musica e musicologia; storia della musica"
+    },
+    "SH8_8": {
+      "name_en": "Visual and performing arts, screen, arts-based research",
+      "name_it": "Arti visive e performative, cinema e audiovisivo, ricerca basata sulle arti"
+    },
+    "SH8_9": {
+      "name_en": "Digital approaches to anthropology, cultural studies and art",
+      "name_it": "Approcci digitali all'antropologia, agli studi culturali e all'arte"
+    }
+  }
+}
