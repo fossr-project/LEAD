@@ -3,10 +3,10 @@
 A pipeline of numbered Python scripts that generates the data needed to
 verify author disambiguation through semantic similarity. Each script
 produces one step of the data: the Italian academic sectors (DM 855/2015),
-the ERC panels and the Scopus subject areas of each author. These can then
-be compared semantically.
+the ERC panels, the Scopus subject areas of each author and the subset of
+authors to be checked. These can then be compared semantically.
 
-Scripts are run in order (`01_…`, `02_…`, `03_…`). Inputs are in
+Scripts are run in order (`01_…`, `02_…`, `03_…`, `04_…`). Inputs are in
 `data/input/`, outputs in `data/output/`.
 
 ## Requirements
@@ -30,6 +30,8 @@ Files in `data/input/` used by the scripts:
 | `ERC_2020_D.D. 2298 All. 1 Elenco Settori ERC.pdf` | 02 | ERC domains, panels and subpanels (2020), with panel descriptions. |
 | `ERC_2026_Panel-Structure.pdf` | 02 | ERC domains and panels, 2026 edition (Annex 1 of the ERC Work Programme 2027). |
 | `erc_translations_it.json` | 02 | Italian translations of ERC names and descriptions. |
+| `autori_scopus_preferred-name_erc.tsv` | 04 | ERC grantees matched to their Scopus author ID (`scopus_author_id`), with name, ERC panels and domains, and projects. |
+| `ground_truth.tsv` | 04 | Ground truth for disambiguation: each row pairs a person (`id`, `name`, `surname`, settore concorsuale `RF`, SSD `AD`, `university`) with one candidate Scopus ID (`AUID`); `class` = 1 for the correct one. |
 
 Files not used by the scripts:
 
@@ -40,17 +42,17 @@ Files not used by the scripts:
 
 ### Data for the ERC sector analysis
 
-These files are the data for the analyses on ERC sectors:
+These files, together with `autori_scopus_preferred-name_erc.tsv`, are the
+data for the analyses on ERC sectors:
 
-- `autori_scopus_preferred-name_erc.tsv`: ERC grantees matched to
-  their Scopus author ID, with name, ERC panels and domains, and projects.
 - `step04_panel_0000_erc_ambiguous_surname_2016-2023.tsv` and
   `step04_panel_0000_erc_ambiguous_surname_initial_2016-2023.tsv`: ERC
   authors whose surname (or surname and initial) is ambiguous in Scopus.
   Each row pairs an author with one candidate Scopus ID (`auid`; `match` = 1
   for the correct one) and gives the bibliographic coupling between the
   candidate and the author's ERC panel (references in common and
-  percentage), for publications 2016-2023.
+  percentage), for publications 2016-2023. Step 04 can also read the first
+  one (its line is commented out in `SOURCES`).
 
 ## Output files
 
@@ -59,5 +61,6 @@ These files are the data for the analyses on ERC sectors:
 | `step01_dm855_2015_sectors.json` | `01_extract_dm855_sectors.py` | Italian academic classification from DM 855/2015 (annexes A, B, D): area → macrosettore → settore concorsuale → SSD, with Italian and English names and the Italian *declaratoria* of each settore concorsuale. Keys are in Italian. |
 | `step01_v2_dm855_2015_sectors.json` | `01_extract_dm855_sectors_v2.py` | Same content as above, with English keys (`areas`, `macro_sectors`, `competition_sectors`, `scientific_disciplinary_sectors`, `description_it`). |
 | `step02_erc_panels.json` | `02_extract_erc_panels.py` | ERC classification: domain → panel → subpanel, with English and Italian names, panel descriptions and the 2026 edition of each panel (`edition_2026`, with a `changed` flag). |
-| `step03_scopus_authors_subject_areas.json` | `03_extract_author_subject_areas.py` | One entry per Scopus author in the MongoDB collection `scopus-fossr.scopus_author_retrieval`, with `_id`, `eid` and `subject-areas`. `subject-areas` is `null` when missing. |
-| `step03_scopus_authors_subject_areas.zip` | — | Zipped copy of the step 03 JSON. The JSON itself is ~1.3 GB, too large for GitHub. |
+| `step03_scopus_authors_subject_areas.json` | `03_extract_author_subject_areas.py` | One entry per Scopus author in the MongoDB collection `scopus-fossr.scopus_author_retrieval`, with `_id`, `eid` and `subject-areas`. Each subject area has its `frequency` (integer, from `author-profile.classificationgroup`) and they are sorted by frequency, descending. `subject-areas` is `null` when missing. ~1.5 GB. |
+| `step03_scopus_authors_subject_areas.zip` | — | Zipped copy of the step 03 JSON, which is too large for GitHub. |
+| `step04_scopus_authors_subject_areas_selected.json` | `04_collect_scopus_ids.py` | The step 03 elements (`_id`, `eid`, `subject-areas` with frequencies) of the unique Scopus IDs in `autori_scopus_preferred-name_erc.tsv` (column `scopus_author_id`) and `ground_truth.tsv` (column `AUID`): 3005 authors. `subject-areas` is `null` for authors with no documents in Scopus. |
